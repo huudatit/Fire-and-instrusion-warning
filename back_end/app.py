@@ -1,41 +1,40 @@
-import csv
-from datetime import datetime
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import joblib
+import numpy as np
 
 app = Flask(__name__)
 CORS(app)
 
-sensor_data = {
-    "fire": False,
-    "intrusion": "Bình thường",
-    "temperature": 90.0,
-    "humidity": 80.0
-}
+# Load model và danh sách feature
+model = joblib.load("intrusion_model.pkl")
+selected_features = [
+    'protocol_type', 'flag', 'src_bytes', 'dst_bytes', 'count',
+    'same_srv_rate', 'diff_srv_rate', 'dst_host_srv_count',
+    'dst_host_same_srv_rate', 'dst_host_same_src_port_rate'
+]
 
-# Hàm lưu log vào CSV
-def log_to_csv(data):
-    with open('sensor_log.csv', mode='a', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        writer.writerow([
-            datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            data.get("fire"),
-            data.get("intrusion"),
-            data.get("temperature"),
-            data.get("humidity")
-        ])
+@app.route('/')
+def home():
+    return "🔥 Intrusion Detection AI Server is running!"
 
-@app.route('/api/status', methods=['GET'])
-def get_status():
-    return jsonify(sensor_data)
+@app.route('/api/infer', methods=['POST'])
+def infer_intrusion():
+    try:
+        data = request.json
+        input_data = [data[feat] for feat in selected_features]
+        input_array = np.array([input_data])
+        pred = model.predict(input_array)[0]
+        label = "Tấn công" if pred == 1 else "Bình thường"
+        return jsonify({"status": "ok", "intrusion": label})
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)})
 
-@app.route('/api/update', methods=['POST'])
-def update_data():
-    data = request.json
-    sensor_data.update(data)
-    log_to_csv(sensor_data)  # Ghi log mỗi khi có update
-    print("🔄 Updated data & logged to CSV")
-    return jsonify({"status": "success", "updated": sensor_data})
+@app.route('/test')
+def test():
+    return "<h1>✅ Flask server hoạt động trên LAN!</h1>"
+
 
 if __name__ == '__main__':
+    print("✅ Flask server started at http://0.0.0.0:5000")
     app.run(host='0.0.0.0', port=5000, debug=True)
