@@ -2,11 +2,11 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 import numpy as np
+import random  # 👈 Thêm để giả lập thay đổi
 
 app = Flask(__name__)
 CORS(app)
 
-# Load model và danh sách feature
 model = joblib.load("intrusion_model.pkl")
 selected_features = [
     'protocol_type', 'flag', 'src_bytes', 'dst_bytes', 'count',
@@ -30,10 +30,24 @@ def infer_intrusion():
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)})
 
+# ✅ Route này sẽ được frontend gọi liên tục
+@app.route('/api/status')
+def status():
+    # 👇 Giả lập dữ liệu thay đổi mỗi lần gọi
+    fire = random.choice([True, False])
+    intrusion = random.choice(["Bình thường", "Tấn công DDoS", "Tấn công R2L", "Tấn công Probe"])
+    temp = round(random.uniform(28, 65), 1)
+    hum = round(random.uniform(30, 90), 1)
+    return jsonify({
+        "fire": fire,
+        "intrusion": intrusion,
+        "temperature": temp,
+        "humidity": hum
+    })
+
 @app.route('/test')
 def test():
     return "<h1>✅ Flask server hoạt động trên LAN!</h1>"
-
 
 if __name__ == '__main__':
     print("✅ Flask server started at http://0.0.0.0:5000")

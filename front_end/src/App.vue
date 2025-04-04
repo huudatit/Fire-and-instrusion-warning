@@ -53,22 +53,24 @@ export default {
     return {
       fireDetected: false,
       intrusionType: "Bình thường",
-      temperature: 30.0,
+      temperature: 60.0,
       humidity: 50.0,
     };
   },
   mounted() {
     this.fetchSensorData();
-    setInterval(this.fetchSensorData, 5000);
+    setInterval(this.fetchSensorData, 3000);
   },
   methods: {
     fetchSensorData() {
-      axios.get("https://nids-backend.onrender.com/api/status").then((res) => {
-        this.fireDetected = res.data.fire;
-        this.intrusionType = res.data.intrusion;
-        this.temperature = res.data.temperature;
-        this.humidity = res.data.humidity;
-      });
+      axios
+        .get("https://fire-and-instrusion-warning.onrender.com/api/status")
+        .then((res) => {
+          this.fireDetected = res.data.fire;
+          this.intrusionType = res.data.intrusion;
+          this.temperature = res.data.temperature;
+          this.humidity = res.data.humidity;
+        });
     },
   },
 };
