@@ -59,6 +59,7 @@ export default {
   },
   mounted() {
     this.fetchSensorData();
+    setInterval(this.fetchSensorData, 5000);
   },
   methods: {
     fetchSensorData() {
