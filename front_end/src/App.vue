@@ -63,7 +63,7 @@ export default {
   },
   methods: {
     fetchSensorData() {
-      axios.get("http://localhost:5000/api/status").then((res) => {
+      axios.get("https://nids-backend.onrender.com/api/status").then((res) => {
         this.fireDetected = res.data.fire;
         this.intrusionType = res.data.intrusion;
         this.temperature = res.data.temperature;
