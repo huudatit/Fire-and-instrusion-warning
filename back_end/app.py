@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 import numpy as np
-import random  # 👈 Thêm để giả lập thay đổi
+import random  #  Thêm để giả lập thay đổi
 
 app = Flask(__name__)
 CORS(app)
@@ -30,7 +30,7 @@ def infer_intrusion():
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)})
 
-# ✅ Route này sẽ được frontend gọi liên tục
+#  Route này sẽ được frontend gọi liên tục
 @app.route('/api/status')
 def status():
     # 👇 Giả lập dữ liệu thay đổi mỗi lần gọi
@@ -47,8 +47,8 @@ def status():
 
 @app.route('/test')
 def test():
-    return "<h1>✅ Flask server hoạt động trên LAN!</h1>"
+    return "<h1> Flask server hoạt động trên LAN!</h1>"
 
 if __name__ == '__main__':
-    print("✅ Flask server started at http://0.0.0.0:5000")
+    print(" Flask server started at http://0.0.0.0:5000")
     app.run(host='0.0.0.0', port=5000, debug=True)
