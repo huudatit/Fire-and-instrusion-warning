@@ -2,11 +2,18 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 import numpy as np
+<<<<<<< HEAD
 import random  #  Thêm để giả lập thay đổi
+=======
+>>>>>>> Binh
 
 app = Flask(__name__)
 CORS(app)
 
+<<<<<<< HEAD
+=======
+# Load AI model
+>>>>>>> Binh
 model = joblib.load("intrusion_model.pkl")
 selected_features = [
     'protocol_type', 'flag', 'src_bytes', 'dst_bytes', 'count',
@@ -14,6 +21,17 @@ selected_features = [
     'dst_host_same_srv_rate', 'dst_host_same_src_port_rate'
 ]
 
+<<<<<<< HEAD
+=======
+# Biến lưu trạng thái hiện tại để frontend có thể hiển thị
+current_status = {
+    "fire": False,
+    "intrusion": "Bình thường",
+    "temperature": 30.0,
+    "humidity": 50.0
+}
+
+>>>>>>> Binh
 @app.route('/')
 def home():
     return "🔥 Intrusion Detection AI Server is running!"
@@ -30,6 +48,7 @@ def infer_intrusion():
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)})
 
+<<<<<<< HEAD
 #  Route này sẽ được frontend gọi liên tục
 @app.route('/api/status')
 def status():
@@ -44,6 +63,20 @@ def status():
         "temperature": temp,
         "humidity": hum
     })
+=======
+# API frontend gọi mỗi 3s để lấy dữ liệu hiển thị
+@app.route('/api/status')
+def status():
+    return jsonify(current_status)
+
+# API này cho phép giả lập dữ liệu từ trang admin
+@app.route('/api/set_status', methods=['POST'])
+def set_status():
+    global current_status
+    data = request.json
+    current_status.update(data)
+    return jsonify({"message": "Đã cập nhật dữ liệu giả lập", "data": current_status})
+>>>>>>> Binh
 
 @app.route('/test')
 def test():
