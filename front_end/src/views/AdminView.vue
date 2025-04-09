@@ -46,17 +46,33 @@
           dst_host_same_src_port_rate: 0.01,
         };
   
-        const data = type === "normal" ? normal_input : attack_input;
+        const infer_data = type === "normal" ? normal_input : attack_input;
   
         axios
-          .post("https://fire-and-instrusion-warning.onrender.com/api/infer", data)
+          .post("https://fire-and-instrusion-warning.onrender.com/api/infer", infer_data)
           .then((res) => {
-            this.result = res.data.intrusion;
+            const label = res.data.intrusion;
+            this.result = label;
+
+      // 2. Sau khi có kết quả → gửi về /api/set_status để dashboard cập nhật
+          axios
+              .post("https://fire-and-instrusion-warning.onrender.com/api/set_status", {
+                fire: false,
+                intrusion: label,
+                temperature: 30.0,
+                humidity: 50.0,
+              })
+              .then(() => {
+                console.log("Đã cập nhật trạng thái vào dashboard");
+              })
+              .catch((err) => {
+                console.error("Lỗi khi cập nhật /api/set_status", err);
+              });
           })
-          .catch((err) => {
-            this.result = "Lỗi gửi yêu cầu!";
-            console.error(err);
-          });
+        .catch((err) => {
+          this.result = "Lỗi gửi yêu cầu!";
+          console.error(err);
+        });
       },
     },
   };
