@@ -1,0 +1,8 @@
+Flask
+flask-cors
+scikit-learn
+joblib
+numpy
+waitress
+scapy
+requests
