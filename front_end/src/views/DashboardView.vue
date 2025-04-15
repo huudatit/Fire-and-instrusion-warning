@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>Fire & Intrusion Warning Dashboard</h1>
     <div class="cards">
       <SensorCard
         title="Phát hiện lửa"
