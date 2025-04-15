@@ -57,10 +57,26 @@ export default {
     };
   },
   mounted() {
-    // Không fetch nữa, chỉ dùng giá trị mặc định
+    this.fetchStatus();
+    setInterval(this.fetchStatus, 3000); // gọi lại mỗi 3s
+  },
+  methods: {
+    async fetchStatus() {
+      try {
+        const response = await fetch("http://localhost:5000/api/status");
+        const data = await response.json();
+        this.fireDetected = data.fire;
+        this.intrusionType = data.intrusion;
+        this.temperature = data.temperature;
+        this.humidity = data.humidity;
+      } catch (error) {
+        console.error("Không lấy được trạng thái từ server:", error);
+      }
+    },
   },
 };
 </script>
+
 
 <style>
 .container {

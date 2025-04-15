@@ -2,12 +2,12 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 import numpy as np
+import json
+import os
 
 app = Flask(__name__)
 CORS(app)
 
-
-# Load AI model
 model = joblib.load("intrusion_model.pkl")
 selected_features = [
     'protocol_type', 'flag', 'src_bytes', 'dst_bytes', 'count',
@@ -15,18 +15,30 @@ selected_features = [
     'dst_host_same_srv_rate', 'dst_host_same_src_port_rate'
 ]
 
+# Load trạng thái từ file nếu có
+def load_status():
+    if os.path.exists("status.json"):
+        with open("status.json", "r") as f:
+            return json.load(f)
+    # return {
+    #     "fire": False,
+    #     "intrusion": "Bình thường",
+    #     "temperature": 30.0,
+    #     "humidity": 50.0
+    # }
 
-# Biến lưu trạng thái hiện tại để frontend có thể hiển thị
-current_status = {
-    "fire": False,
-    "intrusion": "Bình thường",
-    "temperature": 30.0,
-    "humidity": 50.0
-}
+# Lưu trạng thái ra file
+def save_status(data):
+    with open("status.json", "w") as f:
+        json.dump(data, f)
+
+
+# Load từ file khi khởi động
+current_status = load_status()
 
 @app.route('/')
 def home():
-    return " Intrusion Detection AI Server is running!"
+    return "Intrusion Detection AI Server is running!"
 
 @app.route('/api/infer', methods=['POST'])
 def infer_intrusion():
@@ -40,19 +52,17 @@ def infer_intrusion():
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)})
 
-
-# API frontend gọi mỗi 3s để lấy dữ liệu hiển thị
 @app.route('/api/status')
 def status():
     return jsonify(current_status)
 
-# API này cho phép giả lập dữ liệu từ trang admin
 @app.route('/api/set_status', methods=['POST'])
 def set_status():
     global current_status
     data = request.json
     current_status.update(data)
-    return jsonify({"message": "Đã cập nhật dữ liệu giả lập", "data": current_status})
+    save_status(current_status)   
+    return jsonify({"message": "Đã cập nhật dữ liệu", "data": current_status})
 
 
 @app.route('/test')
