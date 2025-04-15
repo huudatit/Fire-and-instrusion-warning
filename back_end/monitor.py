@@ -1,4 +1,5 @@
 from scapy.all import sniff, Raw
+from scapy.all import get_if_list
 import numpy as np
 import joblib
 import requests
@@ -35,4 +36,33 @@ def detect(pkt):
     except Exception as e:
         print("Lỗi:", e)
 
-sniff(filter="tcp port 5000", prn=detect, store=0)
+
+# def detect(pkt):
+#     print(pkt.summary())  # In mọi gói tin
+
+sniff(
+    filter="tcp port 5000",
+    iface="\\Device\\NPF_{C4639796-7D93-4826-B4DF-7DAB5BFAA2D4}",
+    prn=detect,
+    store=0
+)
+print(get_if_list())
+
+
+
+#test interface
+# from scapy.all import sniff, get_if_list
+
+# print("Available interfaces:")
+# interfaces = get_if_list()
+# for i, iface in enumerate(interfaces):
+#     print(f"[{i}] {iface}")
+
+# # Chạy thử 1 interface một cách thủ công để kiểm tra hoạt động
+# def test_interface(index):
+#     iface = interfaces[index]
+#     print(f"\n⏳ Testing interface: {iface}...")
+#     sniff(iface=iface, prn=lambda pkt: print(f"[{iface}] {pkt.summary()}"), count=5, timeout=10)
+
+# # Ví dụ: thử interface số 0
+# test_interface(4)
