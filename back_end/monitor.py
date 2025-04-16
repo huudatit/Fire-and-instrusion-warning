@@ -3,6 +3,7 @@ from scapy.all import get_if_list
 from scapy.layers.inet import IP, TCP, UDP
 from collections import defaultdict
 import time
+import threading
 import numpy as np
 import joblib
 import requests
@@ -16,6 +17,12 @@ session_stats = defaultdict(lambda: {
     "same_srv_count": 0,
     "same_src_port_count": 0,
 })
+
+# # Thêm biến toàn cục theo dõi thời gian cuối cùng phát hiện tấn công
+# last_attack_time = 0
+# last_status = "Bình thường"
+# Threshold gói trong 2s để được xem là tấn công
+ATTACK_THRESHOLD = 10
 
 def extract_features(pkt):
     if not pkt.haslayer(IP):
@@ -32,6 +39,19 @@ def extract_features(pkt):
 
     # Thêm timestamp để tính count trong 2 giây gần nhất
     now = time.time()
+    #session_stats[session_key]["timestamps"].append(now)
+    # Nếu đã quá 2s không có gói nào thì reset lại toàn bộ stats cho session này
+    if session_stats[session_key]["timestamps"]:
+        last_time = session_stats[session_key]["timestamps"][-1]
+        if now - last_time > 2:
+            session_stats.pop(session_key)
+            session_stats[session_key] = {
+                "timestamps": [],
+                "srv_count": 0,
+                "same_srv_count": 0,
+                "same_src_port_count": 0,
+            }
+
     session_stats[session_key]["timestamps"].append(now)
 
     # Lọc chỉ các gói trong 2s gần nhất
@@ -85,9 +105,9 @@ def detect(pkt):
         print(" Features truyền vào mô hình:", features)
         x = np.array([features])
         pred = model.predict(x)[0]
-        print("🔎 Dự đoán:", pred)
+        print(" Dự đoán:", pred)
 
-        if pred == 1:
+        if pred == 1 and features[4] > ATTACK_THRESHOLD:  # chỉ nếu count vượt ngưỡng
             print(" Phát hiện tấn công!")
             requests.post("http://localhost:5000/api/set_status", json={
                 "fire": False,
@@ -95,9 +115,57 @@ def detect(pkt):
                 "temperature": 30.0,
                 "humidity": 50.0
             })
+        elif pred == 0:
+            requests.post("http://localhost:5000/api/set_status", json={
+                "fire": False,
+                "intrusion": "Bình thường",
+                "temperature": 30.0,
+                "humidity": 50.0
+            })
 
     except Exception as e:
         print(" Lỗi:", e)
+
+
+# def detect(pkt):
+#     global last_attack_time, last_status
+#     try:
+#         features = extract_features(pkt)
+#         if features is None:
+#             return
+
+#         x = np.array([features])
+#         pred = model.predict(x)[0]
+
+#         now = time.time()
+
+#         if pred == 1:
+#             if last_status != "Tấn công mạng":
+#                 print(" Phát hiện tấn công!")
+#                 requests.post("http://localhost:5000/api/set_status", json={
+#                     "fire": False,
+#                     "intrusion": "Tấn công mạng",
+#                     "temperature": 30.0,
+#                     "humidity": 50.0
+#                 })
+#                 last_status = "Tấn công mạng"
+
+#             last_attack_time = now
+
+#         # Nếu không còn tấn công sau 2s thì cập nhật lại trạng thái
+#         elif last_status == "Tấn công mạng" and now - last_attack_time > 2:
+#             print(" Hệ thống an toàn.")
+#             requests.post("http://localhost:5000/api/set_status", json={
+#                 "fire": False,
+#                 "intrusion": "Bình thường",
+#                 "temperature": 30.0,
+#                 "humidity": 50.0
+#             })
+#             last_status = "Bình thường"
+
+#     except Exception as e:
+#         print("Lỗi:", e)
+
 
 
 # def detect(pkt):
@@ -113,7 +181,7 @@ print(get_if_list())
 
 
 
-#test interface
+# #test interface
 # from scapy.all import sniff, get_if_list
 
 # print("Available interfaces:")
@@ -124,7 +192,7 @@ print(get_if_list())
 # # Chạy thử 1 interface một cách thủ công để kiểm tra hoạt động
 # def test_interface(index):
 #     iface = interfaces[index]
-#     print(f"\n⏳ Testing interface: {iface}...")
+#     print(f"\n Testing interface: {iface}...")
 #     sniff(iface=iface, prn=lambda pkt: print(f"[{iface}] {pkt.summary()}"), count=5, timeout=10)
 
 # # Ví dụ: thử interface số 0
