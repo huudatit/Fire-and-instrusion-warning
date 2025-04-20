@@ -8,7 +8,7 @@ import numpy as np
 import joblib
 import requests
 
-model = joblib.load("intrusion_model.pkl")
+model = joblib.load("decision_tree_model.pkl")
 
 # Biến lưu lại các phiên kết nối để thống kê
 session_stats = defaultdict(lambda: {
