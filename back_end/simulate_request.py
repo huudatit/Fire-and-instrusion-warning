@@ -1,19 +1,26 @@
 import requests
+import time
+import random
 
-url = "http://localhost:5000/api/infer"  # hoặc IP LAN nếu chạy từ máy khác
+# Địa chỉ Flask server
+url = "http://127.0.0.1:5000/api/set_status"
 
-sample = {
-    "protocol_type": 1,
-    "flag": 2,
-    "src_bytes": 300,
-    "dst_bytes": 1000,
-    "count": 20,
-    "same_srv_rate": 0.7,
-    "diff_srv_rate": 0.1,
-    "dst_host_srv_count": 50,
-    "dst_host_same_srv_rate": 0.8,
-    "dst_host_same_src_port_rate": 0.4
-}
+def simulate_data():
+    while True:
+        payload = {
+            "temperature": round(random.uniform(25.0, 60.0), 1),
+            "humidity": round(random.uniform(40.0, 90.0), 1),
+            "fire": random.choice([True, False]),
+            "intrusion": random.choice(["Bình thường", "Tấn công mạng"])
+        }
 
-res = requests.post(url, json=sample)
-print("Phản hồi từ server:", res.json())
+        try:
+            res = requests.post(url, json=payload)
+            print(f"Gửi dữ liệu: {payload} → Mã phản hồi: {res.status_code}")
+        except Exception as e:
+            print("Lỗi gửi dữ liệu:", e)
+
+        time.sleep(5)  # Gửi mỗi 5 giây
+
+if __name__ == "__main__":
+    simulate_data()
