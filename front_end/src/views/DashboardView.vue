@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>Fire & Intrusion Warning Dashboard</h1>
     <div class="cards">
       <SensorCard
         title="Phát hiện lửa"
@@ -25,19 +24,23 @@
       <SensorCard
         title="Nhiệt độ"
         :value="temperature + ' °C'"
-        :warning="temperature > 50"
+        :warning="temperature > 50 || temperature < 20"
         :warning-message="
-          temperature > 50 ? 'Cảnh báo: Nhiệt độ cao!' : 'Nhiệt độ bình thường'
-        "
+          temperature > 50 ? 'Cảnh báo: Nhiệt độ cao!' :
+          temperature < 20 ? 'Cảnh báo: Nhiệt độ thấp!' :
+          'Nhiệt độ bình thường'
+      "
       />
 
       <SensorCard
         title="Độ ẩm"
         :value="humidity + ' %'"
-        :warning="humidity > 80"
+        :warning="humidity > 80 || humidity < 30"
         :warning-message="
-          humidity > 80 ? 'Cảnh báo: Độ ẩm cao!' : 'Độ ẩm bình thường'
-        "
+          humidity > 80 ? 'Cảnh báo: Độ ẩm cao!' :
+          humidity < 30 ? 'Cảnh báo: Độ ẩm thấp!' :
+          'Độ ẩm bình thường'
+      "
       />
     </div>
   </div>
@@ -58,7 +61,7 @@ export default {
   },
   mounted() {
     this.fetchStatus();
-    setInterval(this.fetchStatus, 3000); // gọi lại mỗi 3s
+    setInterval(this.fetchStatus, 2000); // gọi lại mỗi 3s
   },
   methods: {
     async fetchStatus() {
