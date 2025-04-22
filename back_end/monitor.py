@@ -25,7 +25,7 @@ session_stats = defaultdict(lambda: {
 # last_attack_time = 0
 # last_status = "Bình thường"
 # Threshold gói trong 2s để được xem là tấn công
-ATTACK_THRESHOLD = 5
+ATTACK_THRESHOLD = 3
 
 def extract_features(pkt):
     if not pkt.haslayer(IP):
