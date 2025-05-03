@@ -13,8 +13,7 @@
 const char* ssid = "Thanh Binh - VNPT";
 const char* password = "22112006";
 
-const char* serverName = "http://192.168.1.14:5000/api/set_status";
-
+const char* serverName = "http://192.168.1.3:5000/api/set_status";
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
@@ -78,10 +77,11 @@ void loop() {
 
     int httpResponseCode = http.POST(jsonPayload);
     Serial.printf("Gửi dữ liệu... Phản hồi: %d\n", httpResponseCode);
+    Serial.print("Địa chỉ IP của ESP: ");
+    Serial.println(WiFi.localIP());
     http.end();
   } else {
     Serial.println("Mất kết nối WiFi!");
   }
-
   delay(3000); // Gửi mỗi 3s
 }
