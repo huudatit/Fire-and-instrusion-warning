@@ -2,22 +2,30 @@
 #include <HTTPClient.h>
 #include <DHT.h>
 
-#define DHTPIN 4          // Chân kết nối DHT11
+#define DHTPIN 4
 #define DHTTYPE DHT11
 
-#define FIRE_SENSOR_PIN 34  // Nếu là analog, chọn chân ADC
+#define FIRE_SENSOR_PIN 34
 
-const char* ssid = "Cloud Coffee 2";
-const char* password = "23456789";
+#define LED1_PIN 27     // Đèn LED 1
+#define LED2_PIN 26    // Đèn LED 2
 
-const char* serverName = "http://192.168.61.68:5000/api/set_status";
+const char* ssid = "Thanh Binh - VNPT";
+const char* password = "22112006";
 
+const char* serverName = "http://192.168.1.3:5000/api/set_status";
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   Serial.begin(115200);
   dht.begin();
+
   pinMode(FIRE_SENSOR_PIN, INPUT);
+  pinMode(LED1_PIN, OUTPUT);
+  pinMode(LED2_PIN, OUTPUT);
+
+  digitalWrite(LED1_PIN, LOW);
+  digitalWrite(LED2_PIN, LOW);
 
   WiFi.begin(ssid, password);
   Serial.print("Đang kết nối WiFi...");
@@ -25,22 +33,38 @@ void setup() {
     delay(500);
     Serial.print(".");
   }
-  Serial.println("\n Đã kết nối WiFi!");
+  Serial.println("\nĐã kết nối WiFi!");
+}
+
+void blinkLEDs(int times, int interval_ms) {
+  for (int i = 0; i < times; i++) {
+    digitalWrite(LED1_PIN, HIGH);
+    digitalWrite(LED2_PIN, HIGH);
+    delay(interval_ms);
+    digitalWrite(LED1_PIN, LOW);
+    digitalWrite(LED2_PIN, LOW);
+    delay(interval_ms);
+  }
 }
 
 void loop() {
   float temperature = dht.readTemperature();
   float humidity = dht.readHumidity();
   int fireRaw = analogRead(FIRE_SENSOR_PIN);
-  bool fireDetected = fireRaw < 1000; // Ngưỡng tuỳ theo cảm biến bạn
+  bool fireDetected = fireRaw < 1000; // điều chỉnh ngưỡng nếu cần
 
   if (isnan(temperature) || isnan(humidity)) {
-    Serial.println(" Lỗi đọc cảm biến DHT11");
+    Serial.println("Lỗi đọc cảm biến DHT11");
     return;
   }
 
-  Serial.printf(" Nhiệt độ: %.1f °C |  Độ ẩm: %.1f %% |  Lửa: %s\n",
+  Serial.printf("Nhiệt độ: %.1f °C | Độ ẩm: %.1f %% | Lửa: %s\n",
                 temperature, humidity, fireDetected ? "Có" : "Không");
+
+  // Nếu vượt ngưỡng nhiệt độ hoặc có lửa → nháy LED
+  if (temperature > 40.0 || fireDetected) {
+    blinkLEDs(5, 200); // nháy 5 lần, mỗi lần 200ms
+  }
 
   if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;
@@ -52,11 +76,12 @@ void loop() {
                        + ",\"fire\":" + String(fireDetected ? "true" : "false") + "}";
 
     int httpResponseCode = http.POST(jsonPayload);
-    Serial.printf(" Gửi dữ liệu... Phản hồi: %d\n", httpResponseCode);
+    Serial.printf("Gửi dữ liệu... Phản hồi: %d\n", httpResponseCode);
+    Serial.print("Địa chỉ IP của ESP: ");
+    Serial.println(WiFi.localIP());
     http.end();
   } else {
-    Serial.println(" Mất kết nối WiFi!");
+    Serial.println("Mất kết nối WiFi!");
   }
-
-  delay(5000); // Gửi mỗi 5s
+  delay(3000); // Gửi mỗi 3s
 }
