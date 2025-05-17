@@ -42,6 +42,10 @@
           'Độ ẩm bình thường'
       "
       />
+      <button @click="clearLogs" style="margin-bottom: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Xoá nhật ký
+    </button>
+
     </div>
     <h2 style="margin-top: 40px;">Nhật ký hệ thống</h2>
     <table style="margin: auto; border-collapse: collapse;">
@@ -109,6 +113,20 @@ export default {
       } catch (error) {
       console.error("Không lấy được log từ server:", error);
       }
+    },
+    async clearLogs() {
+    if (confirm("Bạn có chắc chắn muốn xoá toàn bộ nhật ký?")) {
+      try {
+      const response = await fetch("http://localhost:5000/api/clear_logs", {
+        method: "POST"
+      });
+      const result = await response.json();
+      console.log(result.message);
+      this.logs = []; // cập nhật giao diện
+      } catch (error) {
+      console.error("Lỗi khi xoá log:", error);
+      }
+    }
     },
   },
 };
