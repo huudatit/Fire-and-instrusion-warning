@@ -25,7 +25,7 @@ session_stats = defaultdict(lambda: {
 # last_attack_time = 0
 # last_status = "Bình thường"
 # Threshold gói trong 2s để được xem là tấn công
-ATTACK_THRESHOLD = 5
+ATTACK_THRESHOLD = 3
 
 def extract_features(pkt):
     if not pkt.haslayer(IP):
@@ -104,7 +104,8 @@ def extract_features(pkt):
 
 def detect(pkt):
     try:
-        print(" Gói tin nhận được:", pkt.summary())
+        _ = pkt.summary()
+        #print(" Gói tin nhận được:", pkt.summary())
         features = extract_features(pkt)
         print(" Features truyền vào mô hình:", features)
 
@@ -116,7 +117,7 @@ def detect(pkt):
         'protocol_type', 'service', 'flag', 'src_bytes', 'dst_bytes',
         'count', 'same_srv_rate', 'diff_srv_rate',
         'dst_host_srv_count', 'dst_host_same_srv_rate'
-    ]
+        ]
 
         x = pd.DataFrame([features], columns=feature_names)  
         x_scaled = scaler.transform(x)
@@ -153,7 +154,6 @@ sniff(
 print(get_if_list())
 
 
-
 # #test interface
 # from scapy.all import sniff, get_if_list
 
@@ -170,3 +170,4 @@ print(get_if_list())
 
 # # Ví dụ: thử interface số 0
 # test_interface(4)
+
