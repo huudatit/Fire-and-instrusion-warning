@@ -43,6 +43,27 @@
       "
       />
     </div>
+    <h2 style="margin-top: 40px;">Nhật ký hệ thống</h2>
+    <table style="margin: auto; border-collapse: collapse;">
+    <thead>
+    <tr>
+      <th style="border: 1px solid #ccc; padding: 8px;">Thời gian</th>
+      <th style="border: 1px solid #ccc; padding: 8px;">Sự kiện</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr v-for="log in logs" :key="log.timestamp">
+      <td style="border: 1px solid #ccc; padding: 8px;">{{ log.timestamp }}</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">
+         {{ log.fire ? 'Có lửa' : 'Không' }},
+         {{ log.intrusion }},
+         {{ log.temperature }} °C,
+         {{ log.humidity }} %
+      </td>
+    </tr>
+  </tbody>
+</table>
+
   </div>
 </template>
 
@@ -57,11 +78,14 @@ export default {
       intrusionType: "Bình thường",
       temperature: 30.0,
       humidity: 50.0,
+      logs: []
     };
   },
   mounted() {
     this.fetchStatus();
+    this.fetchLogs();
     setInterval(this.fetchStatus, 2000); // gọi lại mỗi 3s
+    setInterval(this.fetchLogs, 5000);
   },
   methods: {
     async fetchStatus() {
@@ -74,6 +98,16 @@ export default {
         this.humidity = data.humidity;
       } catch (error) {
         console.error("Không lấy được trạng thái từ server:", error);
+      }
+    },
+    async fetchLogs() {
+      try {
+      const response = await fetch("http://localhost:5000/api/logs");
+      const data = await response.json();
+      const allLogs = data.logs;
+      this.logs = allLogs.slice(-5).reverse();
+      } catch (error) {
+      console.error("Không lấy được log từ server:", error);
       }
     },
   },
@@ -94,5 +128,28 @@ export default {
   gap: 20px;
   margin-top: 30px;
 }
+.log-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.log-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.log-table th,
+.log-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.log-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
 </style>
 
