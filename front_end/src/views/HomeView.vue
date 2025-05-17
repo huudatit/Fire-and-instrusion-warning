@@ -40,20 +40,6 @@
         </div>
       </div>
     </div>
-
-    <div class="about-section">
-      <h2>Về hệ thống của chúng tôi</h2>
-      <p>
-        Hệ thống giám sát an ninh của chúng tôi sử dụng công nghệ tiên tiến để phát hiện cháy và 
-        các cuộc tấn công mạng, đảm bảo an toàn cho không gian sống và làm việc của bạn. 
-        Với giao diện thân thiện và dễ sử dụng, bạn có thể theo dõi mọi thông số quan trọng 
-        từ bất kỳ đâu, bất kỳ lúc nào.
-      </p>
-      <p>
-        Được phát triển bởi đội ngũ chuyên gia an ninh và phòng cháy chữa cháy, 
-        hệ thống của chúng tôi mang lại sự an tâm và bảo vệ toàn diện cho người dùng.
-      </p>
-    </div>
   </div>
 </template>
 
@@ -169,23 +155,6 @@ export default {
 .feature-card h3 {
   margin-bottom: 15px;
   color: #333;
-}
-
-.about-section {
-  background-color: #f8f9fa;
-  padding: 40px;
-  border-radius: 10px;
-  margin-bottom: 40px;
-}
-
-.about-section h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.about-section p {
-  line-height: 1.6;
-  margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {

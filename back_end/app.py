@@ -20,14 +20,7 @@ def load_status():
     if os.path.exists("status.json"):
         with open("status.json", "r") as f:
             return json.load(f)
-    # return {
-    #     "fire": False,
-    #     "intrusion": "Bình thường",
-    #     "temperature": 30.0,
-    #     "humidity": 50.0
-    # }
 
-# Lưu trạng thái ra file
 def save_status(data):
     with open("status.json", "w") as f:
         json.dump(data, f)

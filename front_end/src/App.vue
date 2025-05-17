@@ -48,19 +48,6 @@
     </main>
     
     <!-- Footer -->
-    <footer class="app-footer">
-      <div class="footer-content">
-        <div class="footer-info">
-          <p>&copy; 2025 Fire & Intrusion Warning System. Tất cả quyền được bảo lưu.</p>
-        </div>
-        <div class="footer-links">
-          <a href="#" class="footer-link">Về chúng tôi</a>
-          <a href="#" class="footer-link">Chính sách bảo mật</a>
-          <a href="#" class="footer-link">Điều khoản sử dụng</a>
-          <a href="#" class="footer-link">Liên hệ</a>
-        </div>
-      </div>
-    </footer>
   </div>
 </template>
 
@@ -331,42 +318,6 @@ a {
   padding: 20px;
 }
 
-/* Footer */
-.app-footer {
-  background-color: #fff;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
-  margin-top: 40px;
-}
-
-.footer-content {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-info {
-  margin-bottom: 15px;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.footer-link {
-  color: #666;
-  transition: color 0.3s ease;
-}
-
-.footer-link:hover {
-  color: #007bff;
-}
-
 /* Animation transition */
 .fade-enter-active, .fade-leave-active {
   transition: opacity 0.3s ease;
@@ -391,16 +342,6 @@ a {
   .auth-section {
     width: 100%;
     justify-content: center;
-  }
-  
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .footer-links {
-    justify-content: center;
-    margin-top: 15px;
   }
 }
 </style>
