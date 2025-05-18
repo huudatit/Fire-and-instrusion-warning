@@ -100,6 +100,8 @@ export default {
         this.intrusionType = data.intrusion;
         this.temperature = data.temperature;
         this.humidity = data.humidity;
+
+        this.sendStatusToBackend();
       } catch (error) {
         console.error("Không lấy được trạng thái từ server:", error);
       }
@@ -128,6 +130,25 @@ export default {
       }
     }
     },
+    async sendStatusToBackend() {
+    const email = localStorage.getItem("userEmail"); 
+    const payload = {
+      fire: this.fireDetected,
+      intrusion: this.intrusionType,
+      temperature: this.temperature,
+      humidity: this.humidity,
+      email: email  
+    };
+    try {
+      await fetch("http://localhost:5000/api/set_status", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+    } catch (error) {
+      console.error("Không gửi được dữ liệu:", error);
+    }
+  }
   },
 };
 </script>
