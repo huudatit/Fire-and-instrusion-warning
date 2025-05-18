@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { auth } from "../firebase";
+import { auth, db } from "../firebase";
+import { doc, getDoc } from "firebase/firestore";
 import HomeView from "../views/HomeView.vue";
 
 // Middleware kiểm tra xác thực được cải tiến
@@ -30,6 +31,35 @@ const redirectIfAuth = (to, from, next) => {
   });
 };
 
+// Middleware kiểm tra quyền admin
+const requireAdmin = (to, from, next) => {
+  const unsubscribe = auth.onAuthStateChanged(async (user) => {
+    if (user) {
+      try {
+        // Lấy thông tin người dùng từ Firestore
+        const userDoc = await getDoc(doc(db, "users", user.uid));
+        if (userDoc.exists() && userDoc.data().role === "admin") {
+          // Người dùng có quyền admin
+          next();
+        } else {
+          // Người dùng không có quyền admin
+          alert("Bạn không có quyền truy cập trang này");
+          next("/dashboard");
+        }
+      } catch (error) {
+        console.error("Lỗi khi kiểm tra quyền admin:", error);
+        next("/dashboard");
+      }
+    } else {
+      next({
+        path: "/login",
+        query: { redirect: to.fullPath },
+      });
+    }
+    unsubscribe();
+  });
+};
+
 const routes = [
   {
     path: "/",
@@ -51,13 +81,14 @@ const routes = [
   {
     path: "/admin",
     name: "admin",
-    component: () => import("../views/AdminView.vue"),
-    beforeEnter: requireAuth,
+    component: () => import("../views/AdminDashboard.vue"),
+    beforeEnter: requireAdmin,
     meta: {
-      title: "Giả lập - Fire & Intrusion Warning",
+      title: "Quản trị hệ thống - Fire & Intrusion Warning",
       requiresAdmin: true,
     },
   },
+
   {
     path: "/login",
     name: "login",
@@ -142,28 +173,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   // Cập nhật title dựa vào meta của route
   document.title = to.meta.title || "Fire & Intrusion Warning System";
-
-  // Kiểm tra quyền admin nếu cần
-  if (to.matched.some((record) => record.meta.requiresAdmin)) {
-    const unsubscribe = auth.onAuthStateChanged(async (user) => {
-      if (user) {
-        try {
-          // Ở đây bạn có thể thêm logic kiểm tra user có phải admin không
-          // Ví dụ: const userDoc = await getDoc(doc(db, "users", user.uid));
-          // if (userDoc.exists() && userDoc.data().role === 'admin') { next() } else { next('/dashboard') }
-          next();
-        } catch (error) {
-          console.error("Lỗi khi kiểm tra quyền admin:", error);
-          next("/dashboard");
-        }
-      } else {
-        next("/login");
-      }
-      unsubscribe();
-    });
-  } else {
-    next();
-  }
+  next();
 });
 
 export default router;
