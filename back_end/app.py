@@ -145,10 +145,13 @@ def get_logs():
         with open(log_file, "r") as f:
             try:
                 logs = json.load(f)
-                return jsonify({"logs": logs})
+                # Lấy 5 log mới nhất và đảo ngược để log mới nhất nằm đầu tiên
+                latest_logs = logs[-5:][::-1]
+                return jsonify({"logs": latest_logs})
             except:
                 return jsonify({"logs": []})
     return jsonify({"logs": []})
+
 
 @app.route('/api/clear_logs', methods=['POST'])
 def clear_logs():
