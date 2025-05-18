@@ -13,7 +13,7 @@
 const char* ssid = "Thanh Binh - VNPT";
 const char* password = "22112006";
 
-const char* serverName = "http://192.168.1.3:5000/api/set_status";
+const char* serverName = "http://192.168.1.15:5000/api/set_status";
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
