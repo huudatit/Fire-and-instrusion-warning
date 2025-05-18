@@ -13,7 +13,7 @@
         <nav class="main-nav">
           <router-link to="/" class="nav-link">Trang chủ</router-link>
           <router-link to="/dashboard" class="nav-link">Dashboard</router-link>
-          <router-link to="/admin" class="nav-link">Giả lập</router-link>
+          <router-link v-if="isAdmin" to="/admin" class="nav-link">Quản trị hệ thống</router-link>
         </nav>
         
         <div class="auth-section">
@@ -26,6 +26,7 @@
               <div class="dropdown-menu" v-if="showDropdown">
                 <router-link to="/profile" class="dropdown-item">Hồ sơ</router-link>
                 <router-link to="/dashboard" class="dropdown-item">Dashboard</router-link>
+                <router-link v-if="isAdmin" to="/admin" class="dropdown-item">Quản trị hệ thống</router-link>
                 <a href="#" @click.prevent="logout" class="dropdown-item">Đăng xuất</a>
               </div>
             </div>
@@ -61,6 +62,7 @@ import { doc, getDoc } from 'firebase/firestore';
 export default {
   setup() {
     const isLoggedIn = ref(false);
+    const isAdmin = ref(false);
     const userName = ref('Người dùng');
     const userInitials = ref('?');
     const showDropdown = ref(false);
@@ -82,6 +84,9 @@ export default {
         if (userDoc.exists()) {
           const userData = userDoc.data();
           userName.value = userData.name || 'Người dùng';
+          
+          // Kiểm tra vai trò admin
+          isAdmin.value = userData.role === 'admin';
           
           // Lấy chữ cái đầu của tên để hiển thị avatar
           if (userData.name) {
@@ -116,12 +121,15 @@ export default {
         isLoggedIn.value = !!user;
         if (user) {
           getUserData(user);
+        } else {
+          isAdmin.value = false; // Reset vai trò admin khi đăng xuất
         }
       });
     });
     
     return {
       isLoggedIn,
+      isAdmin,
       userName,
       userInitials,
       showDropdown,
