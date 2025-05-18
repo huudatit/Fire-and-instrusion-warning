@@ -7,6 +7,7 @@ import os
 import time
 import smtplib
 from email.mime.text import MIMEText
+from datetime import datetime
 
 app = Flask(__name__)
 CORS(app)
@@ -17,6 +18,17 @@ selected_features = [
     'same_srv_rate', 'diff_srv_rate', 'dst_host_srv_count',
     'dst_host_same_srv_rate', 'dst_host_same_src_port_rate'
 ]
+
+alert_counters = {
+    "fire": [],
+    "intrusion": []
+}
+last_email_sent_time = {
+    "fire": 0,
+    "intrusion": 0
+}
+COOLDOWN_SECONDS = 600  # 10 phút
+ALERT_WINDOW_SECONDS = 60  # Lỗi liên tục trong 60 giây
 
 def append_log(entry):
     log_file = "log.json"
@@ -33,24 +45,7 @@ def append_log(entry):
 
     with open(log_file, "w") as f:
         json.dump(logs, f, indent=2)
-# Gửi email cảnh báo nếu có cháy hoặc xâm nhập
-if user_email and (data.get("fire") or data.get("intrusion") != "Bình thường"):
-    subject = " CẢNH BÁO AN TOÀN HỆ THỐNG "
-    message = f"""
-    Hệ thống vừa phát hiện:
-     Cháy: {"Có" if data.get("fire") else "Không"}
-     Xâm nhập mạng: {data.get("intrusion")}
-     Nhiệt độ: {data.get("temperature")}°C
-     Độ ẩm: {data.get("humidity")}%
-    """
-    send_warning_email(user_email, subject, message)
-
-# Load trạng thái từ file nếu có
-def load_status():
-    if os.path.exists("status.json"):
-        with open("status.json", "r") as f:
-            return json.load(f)
-        
+  
 # Load trạng thái từ file nếu có
 def load_status():
     if os.path.exists("status.json"):
@@ -87,10 +82,12 @@ def status():
 
 @app.route('/api/set_status', methods=['POST'])
 def set_status():
-    global current_status
+    global current_status, user_email, last_email_sent_time, alert_counters
     data = request.json
     current_status.update(data)
-    save_status(current_status)   
+    save_status(current_status) 
+    now = time.time()
+    timestamp_str = time.strftime("%Y-%m-%d %H:%M:%S")  
     log_entry = {
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
         "fire": data.get("fire", False),
@@ -99,7 +96,42 @@ def set_status():
         "humidity": data.get("humidity", 0.0)
     }
     append_log(log_entry)
+    
+    # FIRE LOGIC
+    if data.get("fire"):
+        alert_counters["fire"].append(now)
+        # Giữ lại chỉ các sự kiện trong 60s gần nhất
+        alert_counters["fire"] = [t for t in alert_counters["fire"] if now - t <= ALERT_WINDOW_SECONDS]
+
+        if len(alert_counters["fire"]) >= 3 and now - last_email_sent_time["fire"] > COOLDOWN_SECONDS:
+            if user_email:
+                send_email_alert(
+                    " Cảnh báo cháy nghiêm trọng",
+                    f"Hệ thống phát hiện cháy liên tục tại {timestamp_str}.",
+                    user_email
+                )
+                last_email_sent_time["fire"] = now
+    else:
+        alert_counters["fire"] = []  # reset nếu không còn lỗi
+
+    # INTRUSION LOGIC
+    if data.get("intrusion") != "Bình thường":
+        alert_counters["intrusion"].append(now)
+        alert_counters["intrusion"] = [t for t in alert_counters["intrusion"] if now - t <= ALERT_WINDOW_SECONDS]
+
+        if len(alert_counters["intrusion"]) >= 3 and now - last_email_sent_time["intrusion"] > COOLDOWN_SECONDS:
+            if user_email:
+                send_email_alert(
+                    " Cảnh báo xâm nhập mạng",
+                    f"Phát hiện tấn công mạng liên tục tại {timestamp_str}.",
+                    user_email
+                )
+                last_email_sent_time["intrusion"] = now
+    else:
+        alert_counters["intrusion"] = []
+
     return jsonify({"message": "Đã cập nhật dữ liệu", "data": current_status})
+
 
 
 @app.route('/test')
@@ -113,10 +145,13 @@ def get_logs():
         with open(log_file, "r") as f:
             try:
                 logs = json.load(f)
-                return jsonify({"logs": logs})
+                # Lấy 5 log mới nhất và đảo ngược để log mới nhất nằm đầu tiên
+                latest_logs = logs[-5:][::-1]
+                return jsonify({"logs": latest_logs})
             except:
                 return jsonify({"logs": []})
     return jsonify({"logs": []})
+
 
 @app.route('/api/clear_logs', methods=['POST'])
 def clear_logs():
@@ -135,7 +170,7 @@ def set_email():
 
 def send_warning_email(to_email, subject, message):
     admin_email = "22520216@gm.uit.edu.vn"
-    admin_password = "YOUR_APP_PASSWORD"
+    admin_password = "vrvk setl tapc hnmx"
 
     msg = MIMEText(message)
     msg['Subject'] = subject
