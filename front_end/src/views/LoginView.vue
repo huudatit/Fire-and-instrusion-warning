@@ -58,6 +58,7 @@ export default {
       
       try {
         await signInWithEmailAndPassword(auth, email.value, password.value);
+        localStorage.setItem('userEmail', email.value);
         router.push('/');
       } catch (error) {
         console.error('Lỗi đăng nhập:', error);
