@@ -18,6 +18,8 @@ selected_features = [
     'same_srv_rate', 'diff_srv_rate', 'dst_host_srv_count',
     'dst_host_same_srv_rate', 'dst_host_same_src_port_rate'
 ]
+user_email = None
+
 def append_log(entry):
     log_file = "log.json"
     logs = []
@@ -120,6 +122,7 @@ def set_email():
     global user_email
     data = request.json
     user_email = data.get("email")
+    print("Email đã nhận và lưu:", user_email) # thêm log
     return jsonify({"message": "Đã lưu email người dùng", "email": user_email})
 
 def send_warning_email(to_email, subject, message):
@@ -138,6 +141,27 @@ def send_warning_email(to_email, subject, message):
             print(f"Đã gửi email cảnh báo đến {to_email}")
     except Exception as e:
         print(f"Lỗi gửi email: {e}")
+
+@app.route('/api/send_email_now', methods=['POST'])
+def send_email_now():
+    global user_email
+    if not user_email:
+        return jsonify({"message": "Chưa có email người dùng"}), 400
+
+    # Lấy trạng thái hiện tại từ current_status
+    status = current_status
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+    message = f"""
+    Tình trạng hệ thống tại {timestamp}:
+     Lửa: {"Có" if status.get("fire") else "Không"}
+     Xâm nhập mạng: {status.get("intrusion")}
+     Nhiệt độ: {status.get("temperature")} °C
+     Độ ẩm: {status.get("humidity")} %
+    """
+
+    subject = " Báo cáo thủ công từ hệ thống giám sát IoT"
+    send_warning_email(user_email, subject, message)
+    return jsonify({"message": "Đã gửi email thủ công"}), 200
 
 if __name__ == '__main__':
     print(" Flask server started at http://0.0.0.0:5000")

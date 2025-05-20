@@ -52,33 +52,40 @@ export default {
     const loading = ref(false);
     const router = useRouter();
 
-    const login = async () => {
-      loading.value = true;
-      errorMessage.value = '';
-      
-      try {
-        await signInWithEmailAndPassword(auth, email.value, password.value);
-        localStorage.setItem('userEmail', email.value);
-        router.push('/');
-      } catch (error) {
-        console.error('Lỗi đăng nhập:', error);
-        switch (error.code) {
-          case 'auth/invalid-email':
-            errorMessage.value = 'Email không hợp lệ.';
-            break;
-          case 'auth/user-not-found':
-            errorMessage.value = 'Không tìm thấy tài khoản với email này.';
-            break;
-          case 'auth/wrong-password':
-            errorMessage.value = 'Mật khẩu không chính xác.';
-            break;
-          default:
-            errorMessage.value = 'Đăng nhập thất bại. Vui lòng thử lại.';
-        }
-      } finally {
-        loading.value = false;
+   const login = async () => {
+    loading.value = true;
+    errorMessage.value = '';
+
+    try {
+      await signInWithEmailAndPassword(auth, email.value, password.value);
+
+      localStorage.setItem('userEmail', email.value);
+
+      const response = await fetch('http://localhost:5000/api/set_email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ email: email.value })
+      });
+
+      const result = await response.json();
+      console.log("Phản hồi từ server:", result);
+
+      if (response.ok) {
+        setTimeout(() => {
+          router.push('/');
+        }, 300);
+      } else {
+        alert("Không thể lưu email người dùng trên server.");
       }
-    };
+    } catch (error) {
+      console.error('Lỗi đăng nhập:', error);
+      // ... (giữ nguyên phần xử lý lỗi)
+    } finally {
+      loading.value = false;
+    }
+  };
 
     return {
       email,

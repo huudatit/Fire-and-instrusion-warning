@@ -42,10 +42,14 @@
           'Độ ẩm bình thường'
       "
       />
-      <button @click="clearLogs" style="margin-bottom: 20px; padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+      <button @click="clearLogs" style="padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">
         Xoá nhật ký
-    </button>
-
+      </button>
+      <button @click="sendEmailNow" style="padding: 10px 20px; background-color: green; color: white; border: none; border-radius: 5px;">
+        Gửi tin nhắn về gmail
+      </button>
+    </div>
     </div>
     <h2 style="margin-top: 40px;">Nhật ký hệ thống</h2>
     <table style="margin: auto; border-collapse: collapse;">
@@ -147,6 +151,18 @@ export default {
       });
     } catch (error) {
       console.error("Không gửi được dữ liệu:", error);
+    }
+  },
+    async sendEmailNow() {
+    try {
+      const res = await fetch("http://localhost:5000/api/send_email_now", {
+        method: "POST"
+      });
+      const result = await res.json();
+      alert(result.message); // Hiển thị kết quả cho người dùng
+    } catch (error) {
+      console.error("Lỗi khi gửi email thủ công:", error);
+      alert("Không thể gửi email. Vui lòng thử lại.");
     }
   }
   },
