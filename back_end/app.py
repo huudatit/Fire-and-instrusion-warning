@@ -18,18 +18,6 @@ selected_features = [
     'same_srv_rate', 'diff_srv_rate', 'dst_host_srv_count',
     'dst_host_same_srv_rate', 'dst_host_same_src_port_rate'
 ]
-
-alert_counters = {
-    "fire": [],
-    "intrusion": []
-}
-last_email_sent_time = {
-    "fire": 0,
-    "intrusion": 0
-}
-COOLDOWN_SECONDS = 600  # 10 phút
-ALERT_WINDOW_SECONDS = 60  # Lỗi liên tục trong 60 giây
-
 def append_log(entry):
     log_file = "log.json"
     logs = []
@@ -96,40 +84,6 @@ def set_status():
         "humidity": data.get("humidity", 0.0)
     }
     append_log(log_entry)
-    
-    # FIRE LOGIC
-    if data.get("fire"):
-        alert_counters["fire"].append(now)
-        # Giữ lại chỉ các sự kiện trong 60s gần nhất
-        alert_counters["fire"] = [t for t in alert_counters["fire"] if now - t <= ALERT_WINDOW_SECONDS]
-
-        if len(alert_counters["fire"]) >= 3 and now - last_email_sent_time["fire"] > COOLDOWN_SECONDS:
-            if user_email:
-                send_email_alert(
-                    " Cảnh báo cháy nghiêm trọng",
-                    f"Hệ thống phát hiện cháy liên tục tại {timestamp_str}.",
-                    user_email
-                )
-                last_email_sent_time["fire"] = now
-    else:
-        alert_counters["fire"] = []  # reset nếu không còn lỗi
-
-    # INTRUSION LOGIC
-    if data.get("intrusion") != "Bình thường":
-        alert_counters["intrusion"].append(now)
-        alert_counters["intrusion"] = [t for t in alert_counters["intrusion"] if now - t <= ALERT_WINDOW_SECONDS]
-
-        if len(alert_counters["intrusion"]) >= 3 and now - last_email_sent_time["intrusion"] > COOLDOWN_SECONDS:
-            if user_email:
-                send_email_alert(
-                    " Cảnh báo xâm nhập mạng",
-                    f"Phát hiện tấn công mạng liên tục tại {timestamp_str}.",
-                    user_email
-                )
-                last_email_sent_time["intrusion"] = now
-    else:
-        alert_counters["intrusion"] = []
-
     return jsonify({"message": "Đã cập nhật dữ liệu", "data": current_status})
 
 
