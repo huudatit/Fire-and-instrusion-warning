@@ -92,6 +92,7 @@ export default {
   mounted() {
     this.fetchStatus();
     this.fetchLogs();
+    this.setUserEmail();
     setInterval(this.fetchStatus, 2000); // gọi lại mỗi 3s
     setInterval(this.fetchLogs, 5000);
   },
@@ -105,7 +106,7 @@ export default {
         this.temperature = data.temperature;
         this.humidity = data.humidity;
 
-        this.sendStatusToBackend();
+        //this.sendStatusToBackend();
       } catch (error) {
         console.error("Không lấy được trạng thái từ server:", error);
       }
@@ -164,7 +165,25 @@ export default {
       console.error("Lỗi khi gửi email thủ công:", error);
       alert("Không thể gửi email. Vui lòng thử lại.");
     }
-  }
+  },
+  async setUserEmail() {
+    const email = localStorage.getItem("userEmail");
+    if (!email) {
+      console.warn("Chưa có email trong localStorage");
+      return;
+    }
+    try {
+      const res = await fetch("http://localhost:5000/api/set_email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email })
+      });
+      const result = await res.json();
+      console.log("Email đã gửi đến server:", result);
+    } catch (err) {
+      console.error("Không thể gửi email lên server:", err);
+    }
+  },
   },
 };
 </script>
