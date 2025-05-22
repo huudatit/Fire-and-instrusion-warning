@@ -85,38 +85,49 @@ def status():
 def set_status():
     global current_status, user_email, last_email_sent_time
     data = request.json
-    current_status.update(data)
-    save_status(current_status) 
-    now = time.time()
-    timestamp_str = time.strftime("%Y-%m-%d %H:%M:%S")  
-    log_entry = {
-        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "fire": data.get("fire", False),
-        "intrusion": data.get("intrusion", "Bình thường"),
-        "temperature": data.get("temperature", 0.0),
-        "humidity": data.get("humidity", 0.0)
-    }
-    append_log(log_entry)
-    # GỬI EMAIL NGAY NẾU PHÁT HIỆN LỬA
-    if data.get("fire") and user_email:
-        if now - last_email_sent_time["fire"] > COOLDOWN_SECONDS:
-            send_email_alert(
-                "Cảnh báo cháy",
-                f"Hệ thống phát hiện cháy tại {timestamp_str}.",
-                user_email
-            )
-            last_email_sent_time["fire"] = now
 
-    # GỬI EMAIL NGAY NẾU PHÁT HIỆN TẤN CÔNG
-    if data.get("intrusion") != "Bình thường" and user_email:
-        if now - last_email_sent_time["intrusion"] > COOLDOWN_SECONDS:
-            send_email_alert(
-                "Cảnh báo xâm nhập mạng",
-                f"Phát hiện tấn công mạng tại {timestamp_str}.",
-                user_email
-            )
-            last_email_sent_time["intrusion"] = now
-    return jsonify({"message": "Đã cập nhật dữ liệu", "data": current_status})
+    # Chỉ cập nhật nếu source là ESP
+    if data.get("source") == "esp":
+        current_status.update({
+            "temperature": data.get("temperature", 0.0),
+            "humidity": data.get("humidity", 0.0),
+            "fire": data.get("fire", False),
+            "intrusion": data.get("intrusion", "Bình thường")
+        })
+        save_status(current_status)
+
+        now = time.time()
+        timestamp_str = time.strftime("%Y-%m-%d %H:%M:%S")
+        log_entry = {
+            "timestamp": timestamp_str,
+            "fire": current_status["fire"],
+            "intrusion": current_status["intrusion"],
+            "temperature": current_status["temperature"],
+            "humidity": current_status["humidity"]
+        }
+        append_log(log_entry)
+
+        # Gửi email nếu có cảnh báo
+        if current_status["fire"] and user_email:
+            if now - last_email_sent_time["fire"] > COOLDOWN_SECONDS:
+                send_email_alert(
+                    "Cảnh báo cháy",
+                    f"Hệ thống phát hiện cháy tại {timestamp_str}.",
+                    user_email
+                )
+                last_email_sent_time["fire"] = now
+
+        if current_status["intrusion"] != "Bình thường" and user_email:
+            if now - last_email_sent_time["intrusion"] > COOLDOWN_SECONDS:
+                send_email_alert(
+                    "Cảnh báo xâm nhập mạng",
+                    f"Phát hiện tấn công mạng tại {timestamp_str}.",
+                    user_email
+                )
+                last_email_sent_time["intrusion"] = now
+
+    return jsonify({"message": "Đã xử lý dữ liệu", "data": current_status})
+
 
 @app.route('/test')
 def test():
@@ -142,6 +153,22 @@ def clear_logs():
     with open("log.json", "w") as f:
         json.dump([], f)
     return jsonify({"message": "Đã xoá log thành công"})
+@app.route('/api/esp_update', methods=['POST'])
+def esp_update():
+    global current_status
+    data = request.json
+    current_status.update(data)
+    save_status(current_status)
+    # Ghi log thực sự
+    log_entry = {
+        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "fire": data.get("fire", False),
+        "intrusion": data.get("intrusion", "Bình thường"),
+        "temperature": data.get("temperature", 0.0),
+        "humidity": data.get("humidity", 0.0)
+    }
+    append_log(log_entry)
+    return jsonify({"message": "ESP cập nhật thành công"})
 
 @app.route('/api/set_email', methods=['POST'])
 def set_email():

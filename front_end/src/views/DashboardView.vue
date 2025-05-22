@@ -106,7 +106,7 @@ export default {
         this.temperature = data.temperature;
         this.humidity = data.humidity;
 
-        this.sendStatusToBackend();
+        //this.sendStatusToBackend();
       } catch (error) {
         console.error("Không lấy được trạng thái từ server:", error);
       }
