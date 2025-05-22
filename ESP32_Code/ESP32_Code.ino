@@ -51,7 +51,7 @@ void loop() {
   float temperature = dht.readTemperature();
   float humidity = dht.readHumidity();
   int fireRaw = analogRead(FIRE_SENSOR_PIN);
-  bool fireDetected = fireRaw < 1000; // điều chỉnh ngưỡng nếu cần
+  bool fireDetected = fireRaw < 1500; // điều chỉnh ngưỡng nếu cần
 
   if (isnan(temperature) || isnan(humidity)) {
     Serial.println("Lỗi đọc cảm biến DHT11");
@@ -80,6 +80,7 @@ void loop() {
     int httpResponseCode = http.POST(jsonPayload);
     Serial.printf("Gửi dữ liệu... Phản hồi: %d\n", httpResponseCode);
     Serial.print("Địa chỉ IP của ESP: ");
+    Serial.printf("Giá trị cảm biến lửa (raw): %d\n", fireRaw);
     Serial.println(WiFi.localIP());
     http.end();
   } else {
