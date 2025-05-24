@@ -43,6 +43,8 @@ import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { auth } from '../firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import { getDoc, doc } from "firebase/firestore";
+import { db } from '../firebase'; 
 
 export default {
   setup() {
@@ -57,33 +59,45 @@ export default {
     errorMessage.value = '';
 
     try {
-      await signInWithEmailAndPassword(auth, email.value, password.value);
+      const userCredential = await signInWithEmailAndPassword(auth, email.value, password.value);
+      const user = userCredential.user;
 
-      localStorage.setItem('userEmail', email.value);
+      // Lấy role từ Firestore
+      const userDocRef = doc(db, "users", user.uid);
+      const userSnapshot = await getDoc(userDocRef);
 
-      const response = await fetch('http://localhost:5000/api/set_email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ email: email.value })
-      });
+      if (userSnapshot.exists()) {
+        const userData = userSnapshot.data();
+        const role = userData.role || "user"; // mặc định là user nếu không có
 
-      const result = await response.json();
-      console.log("Phản hồi từ server:", result);
+        localStorage.setItem("userEmail", email.value);
+        localStorage.setItem("userRole", role); 
 
-      if (response.ok) {
-        setTimeout(() => {
-          router.push('/');
-        }, 300);
+        // Gửi email tới Flask backend
+        const response = await fetch('http://localhost:5000/api/set_email', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ email: email.value })
+        });
+
+        const result = await response.json();
+        console.log("Phản hồi từ server:", result);
+
+        if (response.ok) {
+          setTimeout(() => {
+            router.push('/dashboard');
+          }, 300);
+        } else {
+          alert("Không thể lưu email người dùng trên server.");
+        }
       } else {
-        alert("Không thể lưu email người dùng trên server.");
+        alert("Không tìm thấy thông tin người dùng.");
       }
     } catch (error) {
       console.error('Lỗi đăng nhập:', error);
-      // ... (giữ nguyên phần xử lý lỗi)
-    } finally {
-      loading.value = false;
+      errorMessage.value = "Email hoặc mật khẩu không đúng.";
     }
   };
 

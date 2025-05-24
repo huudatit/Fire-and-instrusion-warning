@@ -46,7 +46,11 @@
       <button @click="clearLogs" style="padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">
         Xoá nhật ký
       </button>
-      <button @click="sendEmailNow" style="padding: 10px 20px; background-color: green; color: white; border: none; border-radius: 5px;">
+      <button
+        v-if="isAdmin"
+        @click="sendEmailNow"
+        style="padding: 10px 20px; background-color: green; color: white; border: none; border-radius: 5px;"
+      >
         Gửi tin nhắn về gmail
       </button>
     </div>
@@ -86,7 +90,8 @@ export default {
       intrusionType: "Bình thường",
       temperature: 30.0,
       humidity: 50.0,
-      logs: []
+      logs: [],
+      isAdmin: false
     };
   },
   mounted() {
@@ -95,6 +100,9 @@ export default {
     this.setUserEmail();
     setInterval(this.fetchStatus, 2000); // gọi lại mỗi 3s
     setInterval(this.fetchLogs, 5000);
+    const role = localStorage.getItem("userRole");
+    console.log("User role:", role);
+    this.isAdmin = role === "admin";
   },
   methods: {
     async fetchStatus() {
