@@ -218,7 +218,7 @@ def send_email_now():
 
     subject = " Báo cáo thủ công từ hệ thống giám sát IoT"
     send_warning_email(user_email, subject, message)
-    return jsonify({"message": "Đã gửi email thủ công"}), 200
+    return jsonify({"message": "Đã gửi email thành công"}), 200
 
 if __name__ == '__main__':
     print(" Flask server started at http://0.0.0.0:5000")
