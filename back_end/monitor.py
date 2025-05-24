@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 import joblib
 import requests
+import json
 
 model = joblib.load("decision_tree_model.pkl")
 scaler = joblib.load("scaler.pkl")  # Load bộ chuẩn hóa
@@ -125,21 +126,24 @@ def detect(pkt):
 
         print(" Dự đoán:", pred)
 
+        try:
+            with open("status.json", "r") as f:
+                current_status = json.load(f)
+        except:
+            current_status = {"temperature": 30.0, "humidity": 50.0}  # fallback
+
+        payload = {
+            "fire": False,
+            "intrusion": "Tấn công mạng" if pred == 1 and features[4] > ATTACK_THRESHOLD else "Bình thường",
+            "temperature": current_status.get("temperature", 30.0),
+            "humidity": current_status.get("humidity", 50.0),
+            "source": "monitor"
+        }
+
         if pred == 1 and features[4] > ATTACK_THRESHOLD:
-            print(" Phát hiện tấn công!")
-            requests.post("http://localhost:5000/api/set_status", json={
-                "fire": False,
-                "intrusion": "Tấn công mạng",
-                "temperature": 30.0,
-                "humidity": 50.0
-            })
-        elif pred == 0:
-            requests.post("http://localhost:5000/api/set_status", json={
-                "fire": False,
-                "intrusion": "Bình thường",
-                "temperature": 30.0,
-                "humidity": 50.0
-            })
+            print("Phát hiện tấn công!")
+        
+        requests.post("http://localhost:5000/api/set_status", json=payload)
 
     except Exception as e:
         print(" Lỗi:", e)
