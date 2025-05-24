@@ -10,10 +10,10 @@
 #define LED1_PIN 27     // Đèn LED 1
 #define LED2_PIN 26    // Đèn LED 2
 
-const char* ssid = "Test ESP32";
-const char* password = "12345678";
+const char* ssid = "Thanh Binh - VNPT";
+const char* password = "22112006";
 
-const char* serverName = "http://192.168.215.139:5000/api/set_status";
+const char* serverName = "http://192.168.1.17:5000/api/set_status";
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {

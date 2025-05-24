@@ -87,7 +87,7 @@ def set_status():
     data = request.json
 
     # Chỉ cập nhật nếu source là ESP
-    if data.get("source") == "esp":
+    if data.get("source") in ["esp", "monitor"]:
         current_status.update({
             "temperature": data.get("temperature", 0.0),
             "humidity": data.get("humidity", 0.0),
@@ -110,21 +110,30 @@ def set_status():
         # Gửi email nếu có cảnh báo
         if current_status["fire"] and user_email:
             if now - last_email_sent_time["fire"] > COOLDOWN_SECONDS:
-                send_email_alert(
-                    "Cảnh báo cháy",
-                    f"Hệ thống phát hiện cháy tại {timestamp_str}.",
-                    user_email
-                )
+                message = f"""
+          Cảnh báo cháy tại {timestamp_str}:
+
+          Lửa: Có
+          Tấn công mạng: {current_status["intrusion"]}
+          Nhiệt độ: {current_status["temperature"]} °C
+          Độ ẩm: {current_status["humidity"]} %
+        """
+                send_email_alert("Cảnh báo cháy", message, user_email)
                 last_email_sent_time["fire"] = now
 
         if current_status["intrusion"] != "Bình thường" and user_email:
             if now - last_email_sent_time["intrusion"] > COOLDOWN_SECONDS:
-                send_email_alert(
-                    "Cảnh báo xâm nhập mạng",
-                    f"Phát hiện tấn công mạng tại {timestamp_str}.",
-                    user_email
-                )
+                message = f"""
+            Cảnh báo xâm nhập mạng tại {timestamp_str}:
+
+            Lửa: {"Có" if current_status["fire"] else "Không"}
+            Tấn công mạng: {current_status["intrusion"]}
+            Nhiệt độ: {current_status["temperature"]} °C
+            Độ ẩm: {current_status["humidity"]} %
+        """
+                send_email_alert("Cảnh báo xâm nhập mạng", message, user_email)
                 last_email_sent_time["intrusion"] = now
+
 
     return jsonify({"message": "Đã xử lý dữ liệu", "data": current_status})
 
