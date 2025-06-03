@@ -21,26 +21,32 @@
         "
       />
 
-      <SensorCard
+        <SensorCard
         title="Nhiệt độ"
         :value="temperature + ' °C'"
-        :warning="temperature > 50 || temperature < 20"
+        :warning="temperature > 50 || temperature < 15"
         :warning-message="
-          temperature > 50 ? 'Cảnh báo: Nhiệt độ cao!' :
-          temperature < 20 ? 'Cảnh báo: Nhiệt độ thấp!' :
-          'Nhiệt độ bình thường'
-      "
+          temperature > 50
+            ? 'Nhiệt độ cao bất thường (không chắc là cháy)'
+            : temperature < 15
+            ? 'Nhiệt độ quá thấp'
+            : 'Nhiệt độ ổn định'
+        "
       />
 
       <SensorCard
         title="Độ ẩm"
         :value="humidity + ' %'"
-        :warning="humidity > 80 || humidity < 30"
+        :warning="humiditySpike || humidity > 80 || humidity < 30"
         :warning-message="
-          humidity > 80 ? 'Cảnh báo: Độ ẩm cao!' :
-          humidity < 30 ? 'Cảnh báo: Độ ẩm thấp!' :
-          'Độ ẩm bình thường'
-      "
+          humiditySpike
+            ? '🔥 Độ ẩm tăng bất thường – có thể là cháy!'
+            : humidity > 80
+            ? 'Độ ẩm cao (bình thường)'
+            : humidity < 30
+            ? 'Độ ẩm thấp'
+            : 'Độ ẩm ổn định'
+        "
       />
       <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
       <button @click="clearLogs" style="padding: 10px 20px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">
@@ -87,6 +93,7 @@ export default {
   data() {
     return {
       fireDetected: false,
+      humiditySpike: false,
       intrusionType: "Bình thường",
       temperature: 30.0,
       humidity: 50.0,
@@ -113,6 +120,7 @@ export default {
         this.intrusionType = data.intrusion;
         this.temperature = data.temperature;
         this.humidity = data.humidity;
+        this.humiditySpike = data.humidity_spike || false;
 
         //this.sendStatusToBackend();
       } catch (error) {
