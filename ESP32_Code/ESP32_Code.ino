@@ -3,17 +3,17 @@
 #include <DHT.h>
 
 #define DHTPIN 4
-#define DHTTYPE DHT11
+#define DHTTYPE DHT22
 
 #define FIRE_SENSOR_PIN 34
 
 #define LED1_PIN 27     // Đèn LED 1
 #define LED2_PIN 26    // Đèn LED 2
 
-const char* ssid = "Thanh Binh - VNPT";
-const char* password = "22112006";
+const char* ssid = "Thanh Binh";
+const char* password = "B24072003@@";
 
-const char* serverName = "http://192.168.1.17:5000/api/set_status";
+const char* serverName = "http://192.168.1.3:5000/api/set_status";
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
@@ -54,7 +54,7 @@ void loop() {
   bool fireDetected = fireRaw < 1500; // điều chỉnh ngưỡng nếu cần
 
   if (isnan(temperature) || isnan(humidity)) {
-    Serial.println("Lỗi đọc cảm biến DHT11");
+    Serial.println("Lỗi đọc cảm biến DHT22");
     return;
   }
 
@@ -73,7 +73,7 @@ void loop() {
 
     String jsonPayload = "{\"temperature\":" + String(temperature, 1)
                    + ",\"humidity\":" + String(humidity, 1)
-                   + ",\"fire\":" + String(fireDetected ? "true" : "false")
+                   + ",\"fireRaw\":" + String(fireRaw)
                    + ",\"intrusion\":\"Bình thường\""
                    + ",\"source\":\"esp\"}";
 

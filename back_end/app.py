@@ -13,6 +13,9 @@ app = Flask(__name__)
 CORS(app)
 
 model = joblib.load("intrusion_model.pkl")
+fire_model = joblib.load("random_forest_fire_model.pkl")
+humidity_spike_model = joblib.load("random_forest_humidity_spike_model.pkl")
+
 selected_features = [
     'protocol_type', 'flag', 'src_bytes', 'dst_bytes', 'count',
     'same_srv_rate', 'diff_srv_rate', 'dst_host_srv_count',
@@ -88,13 +91,33 @@ def set_status():
 
     # Chỉ cập nhật nếu source là ESP
     if data.get("source") in ["esp", "monitor"]:
+        
+        temperature = data.get("temperature", 0.0)
+        humidity = data.get("humidity", 0.0)
+        intrusion = data.get("intrusion", "Bình thường")
+
+        
+        fire_raw = data.get("fireRaw", 2000)
+
+        
+        fire_input = np.array([[temperature, fire_raw]])
+        fire_pred = fire_model.predict(fire_input)[0]
+        fire_detected = bool(fire_pred)
+
+        humidity_input = np.array([[humidity]])
+        humidity_spike_pred = humidity_spike_model.predict(humidity_input)[0]
+        humidity_spike = bool(humidity_spike_pred)
+
         current_status.update({
-            "temperature": data.get("temperature", 0.0),
-            "humidity": data.get("humidity", 0.0),
-            "fire": data.get("fire", False),
-            "intrusion": data.get("intrusion", "Bình thường")
+            "temperature": temperature,
+            "humidity": humidity,
+            "fire": fire_detected,
+            "intrusion": intrusion,
+            "humidity_spike": humidity_spike 
         })
+
         save_status(current_status)
+
 
         now = time.time()
         timestamp_str = time.strftime("%Y-%m-%d %H:%M:%S")
