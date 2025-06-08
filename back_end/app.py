@@ -9,6 +9,12 @@ import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
 
+import warnings
+warnings.filterwarnings(
+    "ignore",
+    message="X does not have valid feature names.*",
+    category=UserWarning
+)
 app = Flask(__name__)
 CORS(app)
 
@@ -28,7 +34,8 @@ alert_counters = {
 }
 last_email_sent_time = {
     "fire": 0,
-    "intrusion": 0
+    "intrusion": 0,
+    "environment": 0
 }
 COOLDOWN_SECONDS = 10 # Thời gian chờ tối thiểu giữa 2 email
 ALERT_WINDOW_SECONDS = 3  # Sự kiện trong vòng 60 giây
@@ -95,8 +102,6 @@ def set_status():
         temperature = data.get("temperature", 0.0)
         humidity = data.get("humidity", 0.0)
         intrusion = data.get("intrusion", "Bình thường")
-
-        
         fire_raw = data.get("fireRaw", 2000)
 
         
@@ -108,6 +113,8 @@ def set_status():
         humidity_spike_pred = humidity_spike_model.predict(humidity_input)[0]
         humidity_spike = bool(humidity_spike_pred)
 
+        temperature_high = temperature > 50
+
         current_status.update({
             "temperature": temperature,
             "humidity": humidity,
@@ -117,7 +124,6 @@ def set_status():
         })
 
         save_status(current_status)
-
 
         now = time.time()
         timestamp_str = time.strftime("%Y-%m-%d %H:%M:%S")
@@ -134,13 +140,13 @@ def set_status():
         if current_status["fire"] and user_email:
             if now - last_email_sent_time["fire"] > COOLDOWN_SECONDS:
                 message = f"""
-          Cảnh báo cháy tại {timestamp_str}:
+            Cảnh báo cháy tại {timestamp_str}:
 
-          Lửa: Có
-          Tấn công mạng: {current_status["intrusion"]}
-          Nhiệt độ: {current_status["temperature"]} °C
-          Độ ẩm: {current_status["humidity"]} %
-        """
+            Lửa: Có
+            Tấn công mạng: {current_status["intrusion"]}
+            Nhiệt độ: {current_status["temperature"]} °C
+            Độ ẩm: {current_status["humidity"]} %
+            """
                 send_email_alert("Cảnh báo cháy", message, user_email)
                 last_email_sent_time["fire"] = now
 
@@ -153,10 +159,22 @@ def set_status():
             Tấn công mạng: {current_status["intrusion"]}
             Nhiệt độ: {current_status["temperature"]} °C
             Độ ẩm: {current_status["humidity"]} %
-        """
+            """
                 send_email_alert("Cảnh báo xâm nhập mạng", message, user_email)
                 last_email_sent_time["intrusion"] = now
 
+        if (humidity_spike or temperature_high) and user_email:
+            if now - last_email_sent_time.get("environment", 0) > COOLDOWN_SECONDS:
+                message = f"""
+            Cảnh báo điều kiện môi trường bất thường tại {timestamp_str}:
+
+            Nhiệt độ cao: {"Có" if temperature_high else "Không"}
+            Độ ẩm cao bất thường: {"Có" if humidity_spike else "Không"}
+            Nhiệt độ: {temperature} °C
+            Độ ẩm: {humidity} %
+            """
+                send_email_alert("Cảnh báo môi trường bất thường", message, user_email)
+                last_email_sent_time["environment"] = now
 
     return jsonify({"message": "Đã xử lý dữ liệu", "data": current_status})
 
