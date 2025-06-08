@@ -27,7 +27,7 @@
         :warning="temperature > 50 || temperature < 15"
         :warning-message="
           temperature > 50
-            ? 'Nhiệt độ cao bất thường (không chắc là cháy)'
+            ? 'Nhiệt độ cao bất thường - có thể là cháy'
             : temperature < 15
             ? 'Nhiệt độ quá thấp'
             : 'Nhiệt độ ổn định'
@@ -40,7 +40,7 @@
         :warning="humiditySpike || humidity > 80 || humidity < 30"
         :warning-message="
           humiditySpike
-            ? '🔥 Độ ẩm tăng bất thường – có thể là cháy!'
+            ? ' Độ ẩm tăng bất thường - có thể là cháy!'
             : humidity > 80
             ? 'Độ ẩm cao (bình thường)'
             : humidity < 30
