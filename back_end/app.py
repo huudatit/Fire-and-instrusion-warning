@@ -20,7 +20,7 @@ CORS(app)
 
 model = joblib.load("intrusion_model.pkl")
 fire_model = joblib.load("random_forest_fire_model.pkl")
-humidity_spike_model = joblib.load("random_forest_humidity_spike_model.pkl")
+humidity_spike_model = joblib.load("svm_humidity_spike_model.pkl")
 
 selected_features = [
     'protocol_type', 'flag', 'src_bytes', 'dst_bytes', 'count',
@@ -37,7 +37,7 @@ last_email_sent_time = {
     "intrusion": 0,
     "environment": 0
 }
-COOLDOWN_SECONDS = 10 # Thời gian chờ tối thiểu giữa 2 email
+COOLDOWN_SECONDS = 3 # Thời gian chờ tối thiểu giữa 2 email
 ALERT_WINDOW_SECONDS = 3  # Sự kiện trong vòng 60 giây
 
 
