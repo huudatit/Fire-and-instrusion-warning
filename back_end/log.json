@@ -6284,5 +6284,103 @@
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
     "temperature": 30.0,
     "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:47:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:47:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:47:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:47:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:47:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:47:51",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:47:54",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:47:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:47:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:48:00",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:48:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:48:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:48:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:48:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
   }
 ]
