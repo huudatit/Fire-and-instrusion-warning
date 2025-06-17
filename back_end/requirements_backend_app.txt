@@ -6,3 +6,5 @@ numpy
 waitress
 scapy
 requests
+prometheus_client
+psutil
