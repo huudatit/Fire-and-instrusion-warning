@@ -24,9 +24,9 @@ void IRAM_ATTR handleButton() {
   }
 }
 
-const char* ssid       = "Test ESP32";
-const char* password   = "12345678";
-const char* serverName = "http://192.168.198.139:5000/api/set_status";
+const char* ssid       = "Thanh Binh - VNPT";
+const char* password   = "22112006";
+const char* serverName = "http://192.168.1.10:5000/api/set_status";
 
 DHT    dht(DHTPIN, DHTTYPE);
 const int FIRE_THRESHOLD = 1500;

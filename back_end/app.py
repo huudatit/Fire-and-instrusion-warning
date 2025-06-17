@@ -5,9 +5,14 @@ import numpy as np
 import json
 import os
 import time
+import threading
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
+from prometheus_client import Counter, Summary, Gauge, make_wsgi_app
+from werkzeug.middleware.dispatcher import DispatcherMiddleware
+import psutil
+import warnings
 
 import warnings
 warnings.filterwarnings(
@@ -16,11 +21,15 @@ warnings.filterwarnings(
     category=UserWarning
 )
 app = Flask(__name__)
+
 CORS(app)
+
 
 model = joblib.load("intrusion_model.pkl")
 fire_model = joblib.load("random_forest_fire_model.pkl")
 humidity_spike_model = joblib.load("svm_humidity_spike_model.pkl")
+
+
 
 selected_features = [
     'protocol_type', 'flag', 'src_bytes', 'dst_bytes', 'count',
@@ -95,6 +104,7 @@ def status():
 def set_status():
     global current_status, user_email, last_email_sent_time
     data = request.json
+    
 
     # Chỉ cập nhật nếu source là ESP
     if data.get("source") in ["esp", "monitor"]:

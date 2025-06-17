@@ -1,177 +1,6288 @@
 [
   {
-    "timestamp": "2025-06-10 11:48:29",
+    "timestamp": "2025-06-17 23:49:02",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.7,
-    "humidity": 59.8
+    "temperature": 31.0,
+    "humidity": 71.6
   },
   {
-    "timestamp": "2025-06-10 11:48:32",
+    "timestamp": "2025-06-17 23:49:42",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.6,
-    "humidity": 59.7
+    "temperature": 30.2,
+    "humidity": 74.3
   },
   {
-    "timestamp": "2025-06-10 11:48:35",
+    "timestamp": "2025-06-17 23:49:48",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.5,
-    "humidity": 59.7
+    "temperature": 30.3,
+    "humidity": 74.2
   },
   {
-    "timestamp": "2025-06-10 11:48:39",
+    "timestamp": "2025-06-17 23:49:54",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.5,
-    "humidity": 59.9
+    "temperature": 30.3,
+    "humidity": 74.3
   },
   {
-    "timestamp": "2025-06-10 11:48:42",
+    "timestamp": "2025-06-17 23:50:01",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.5,
-    "humidity": 59.9
+    "temperature": 30.3,
+    "humidity": 74.2
   },
   {
-    "timestamp": "2025-06-10 11:48:45",
+    "timestamp": "2025-06-17 23:50:08",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.4,
-    "humidity": 60.3
+    "temperature": 30.3,
+    "humidity": 74.2
   },
   {
-    "timestamp": "2025-06-10 11:48:48",
+    "timestamp": "2025-06-17 23:50:14",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.4,
-    "humidity": 60.1
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:48:52",
+    "timestamp": "2025-06-17 23:50:21",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.3,
-    "humidity": 60.1
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:48:55",
+    "timestamp": "2025-06-17 23:50:27",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.3,
-    "humidity": 60.5
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:48:58",
+    "timestamp": "2025-06-17 23:50:33",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.3,
-    "humidity": 60.3
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:01",
+    "timestamp": "2025-06-17 23:50:40",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.3,
-    "humidity": 60.4
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:05",
+    "timestamp": "2025-06-17 23:50:47",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.2,
-    "humidity": 60.3
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:08",
+    "timestamp": "2025-06-17 23:50:53",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.2,
-    "humidity": 60.7
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:11",
+    "timestamp": "2025-06-17 23:50:59",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 26.1,
-    "humidity": 60.2
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:16",
+    "timestamp": "2025-06-17 23:51:06",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 78.9,
-    "humidity": 99.2
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:25",
+    "timestamp": "2025-06-17 23:51:12",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 76.6,
-    "humidity": 81.0
+    "temperature": 30.3,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:33",
+    "timestamp": "2025-06-17 23:51:19",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 75.7,
-    "humidity": 87.2
+    "temperature": 30.2,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:43",
+    "timestamp": "2025-06-17 23:51:25",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 70.3,
-    "humidity": 85.7
+    "temperature": 30.2,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:49:53",
+    "timestamp": "2025-06-17 23:51:32",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 72.0,
-    "humidity": 99.8
+    "temperature": 30.2,
+    "humidity": 74.1
   },
   {
-    "timestamp": "2025-06-10 11:50:01",
+    "timestamp": "2025-06-17 23:51:38",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 75.9,
-    "humidity": 92.9
+    "temperature": 30.2,
+    "humidity": 74.2
   },
   {
-    "timestamp": "2025-06-10 11:50:09",
+    "timestamp": "2025-06-17 23:51:44",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 76.1,
-    "humidity": 81.0
+    "temperature": 30.2,
+    "humidity": 74.2
   },
   {
-    "timestamp": "2025-06-10 11:50:17",
+    "timestamp": "2025-06-17 23:51:51",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 76.6,
-    "humidity": 86.4
+    "temperature": 30.2,
+    "humidity": 74.2
   },
   {
-    "timestamp": "2025-06-10 11:50:25",
+    "timestamp": "2025-06-17 23:51:57",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 71.9,
-    "humidity": 95.6
+    "temperature": 30.2,
+    "humidity": 74.2
   },
   {
-    "timestamp": "2025-06-10 11:50:33",
+    "timestamp": "2025-06-17 23:52:01",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 78.6,
-    "humidity": 82.1
+    "temperature": 30.2,
+    "humidity": 74.2
   },
   {
-    "timestamp": "2025-06-10 11:50:41",
+    "timestamp": "2025-06-17 23:52:04",
     "fire": false,
     "intrusion": "B\u00ecnh th\u01b0\u1eddng",
-    "temperature": 78.1,
-    "humidity": 88.2
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:52:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:52:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:53:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:53:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:53:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.1
+  },
+  {
+    "timestamp": "2025-06-17 23:53:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:53:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:53:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:53:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:54:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:54:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:54:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:54:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:54:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:54:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:54:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.2
+  },
+  {
+    "timestamp": "2025-06-17 23:54:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:54:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:54:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:54:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:55:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:55:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:55:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-17 23:55:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:55:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:55:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:55:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:55:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:55:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:55:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:55:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:56:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:56:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:56:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:56:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:56:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-17 23:56:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:56:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:56:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:56:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:56:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:57:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:57:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:58:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:58:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:58:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:59:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:59:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:59:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:59:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:59:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:59:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:59:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:59:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:59:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:59:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-17 23:59:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-17 23:59:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-17 23:59:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-17 23:59:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-17 23:59:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-17 23:59:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:00:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:00:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:00:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:00:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:00:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:00:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:00:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:00:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:00:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:00:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:00:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:00:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:00:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:00:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:00:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:00:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:00:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:00:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:00:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:01:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:01:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:01:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:01:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:47",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:55",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:57",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:01:59",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:03",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:02:05",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:02:07",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:12",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:02:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:16",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:20",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:22",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:24",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:02:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:34",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:36",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:38",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:42",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:02:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:48",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:02:52",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:02:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:56",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:02:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:02:58",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:02",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:04",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:06",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:10",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:15",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:17",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:19",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:23",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:25",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:27",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:29",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:03:31",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:35",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:37",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:39",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:43",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:45",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:49",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:53",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:57",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:03:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:03:59",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:01",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:04:03",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:04:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:07",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:04:10",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:04:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:14",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:04:16",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:04:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:04:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:11:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:11:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:11:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:11:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:11:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:11:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:12:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:12:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:12:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:12:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:12:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:13:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:13:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:13:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:13:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:13:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:13:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:13:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:14:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:14:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:14:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:14:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 50.0
+  },
+  {
+    "timestamp": "2025-06-18 00:15:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:15:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:15:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:24",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 50.0
+  },
+  {
+    "timestamp": "2025-06-18 00:16:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:16:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:16:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:16:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:16:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:16:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:16:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:16:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:16:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:16:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:16:55",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 50.0
+  },
+  {
+    "timestamp": "2025-06-18 00:16:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:16:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:17:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:17:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:17:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:17:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:17:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:17:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:17:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:17:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:18:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:18:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:18:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:18:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:18:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:18:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:18:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:18:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:18:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:18:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:18:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:18:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:18:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:18:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:18:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:18:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:18:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:18:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 50.0
+  },
+  {
+    "timestamp": "2025-06-18 00:18:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:19:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:19:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:19:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:19:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:20:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:20:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.3,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:20:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:20:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:20:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:21:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:21:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:21:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:21:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:21:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:21:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:21:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:21:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:21:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:21:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:21:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:22:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:22:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:22:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:22:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:22:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:22:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:22:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:23:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:23:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:23:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:23:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:23:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:23:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:23:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:23:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:23:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:23:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:23:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:23:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:24:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:24:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:24:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:24:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:24:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:24:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:24:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:25:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:25:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:25:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:25:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:25:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:26:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:26:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:26:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:26:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:26:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:26:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:26:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:26:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:26:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:26:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:26:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:26:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:26:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:26:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:26:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:26:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:26:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:26:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:26:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:27:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:27:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:27:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:27:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:27:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:27:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:27:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:27:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:27:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:27:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:27:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:27:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:27:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:27:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:27:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:27:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:27:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:27:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:27:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:27:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:28:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:28:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:28:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:28:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:28:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:28:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:28:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:28:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:28:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:28:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:28:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:29:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:29:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:29:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:29:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:29:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:29:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:29:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:29:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:29:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:29:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:29:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:29:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:29:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:29:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:29:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:29:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:29:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:29:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:29:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:30:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:30:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:30:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:30:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:30:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:30:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:30:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:30:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:30:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:30:36",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:30:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:30:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:30:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:30:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:30:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:30:55",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:30:58",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:31:01",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:31:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:31:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:31:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:31:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:31:17",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:31:20",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:31:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:31:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:31:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:31:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:31:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:31:39",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:31:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:31:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:31:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:31:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:31:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:31:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:32:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:32:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:32:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:32:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:32:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:32:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:32:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:32:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:32:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:32:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:32:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:32:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:32:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:32:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:32:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:32:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:32:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:32:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:32:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:33:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:33:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:33:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:33:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:33:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:33:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:33:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:33:52",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:33:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:33:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:34:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:34:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:34:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:34:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:34:14",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:34:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:34:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:34:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:34:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:34:30",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:34:33",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:34:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:34:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:34:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:34:46",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:34:49",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:34:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:34:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:34:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:35:02",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:35:05",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:35:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:35:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:35:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:35:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:35:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:35:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:35:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:35:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:35:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:35:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-18 00:35:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:35:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:35:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:35:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-18 00:35:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-18 00:35:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-18 00:36:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:36:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:36:08",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:36:11",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:36:15",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:36:18",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-18 00:36:21",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:36:24",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:36:27",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:36:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:36:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:36:37",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:36:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:36:43",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:36:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:36:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:36:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-18 00:36:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:36:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:37:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:37:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:37:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:37:12",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.3
+  },
+  {
+    "timestamp": "2025-06-18 00:37:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:37:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:37:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:37:25",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:37:28",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:37:31",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:37:34",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:37:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:37:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:37:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:37:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:37:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:37:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:37:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:38:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:38:04",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:38:07",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:38:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:38:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:38:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.2,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:38:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:38:23",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:38:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:38:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:38:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:38:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:38:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:38:41",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:38:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:38:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.4
+  },
+  {
+    "timestamp": "2025-06-18 00:38:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:38:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:38:57",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:39:00",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:39:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:39:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.6
+  },
+  {
+    "timestamp": "2025-06-18 00:39:09",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:39:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:39:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.5
+  },
+  {
+    "timestamp": "2025-06-18 00:39:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:39:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.1,
+    "humidity": 74.7
+  },
+  {
+    "timestamp": "2025-06-18 00:42:40",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:42:44",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:42:47",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:42:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:42:50",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.0
+  },
+  {
+    "timestamp": "2025-06-18 00:42:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:42:53",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:42:54",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:42:56",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:42:57",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:42:59",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:43:00",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:03",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:43:03",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:06",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:06",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:43:09",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:43:10",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.2
+  },
+  {
+    "timestamp": "2025-06-18 00:43:12",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 75.2
+  },
+  {
+    "timestamp": "2025-06-18 00:43:13",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:15",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:16",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:43:18",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:19",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:21",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:22",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.2
+  },
+  {
+    "timestamp": "2025-06-18 00:43:24",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:26",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:43:27",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:29",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:43:30",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:32",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:43:33",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:35",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:43:36",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:38",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:43:39",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:42",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.1
+  },
+  {
+    "timestamp": "2025-06-18 00:43:43",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:45",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:46",
+    "fire": false,
+    "intrusion": "T\u1ea5n c\u00f4ng m\u1ea1ng",
+    "temperature": 30.0,
+    "humidity": 74.9
+  },
+  {
+    "timestamp": "2025-06-18 00:43:48",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 74.8
+  },
+  {
+    "timestamp": "2025-06-18 00:43:51",
+    "fire": false,
+    "intrusion": "B\u00ecnh th\u01b0\u1eddng",
+    "temperature": 30.0,
+    "humidity": 75.1
   }
 ]
