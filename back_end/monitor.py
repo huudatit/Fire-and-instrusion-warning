@@ -10,6 +10,8 @@ import joblib
 import requests
 import json
 from collections import defaultdict, deque
+import psutil
+import threading
 import time
 
 model = joblib.load("intrusion_model.pkl")
@@ -18,6 +20,10 @@ scaler = joblib.load("scaler.pkl")  # Load bộ chuẩn hóa
 timestamps = deque()
 total_sniff_calls = 0
 error_count = 0
+
+# Tạo các biến toàn cục để lưu I/O counters ban đầu
+prev_disk = psutil.disk_io_counters()
+prev_net  = psutil.net_io_counters()
 
 feature_names = [
     'protocol_type','service','flag','src_bytes','dst_bytes',
@@ -112,7 +118,37 @@ def extract_features(pkt):
         dst_host_same_srv_rate       # dst_host_same_srv_rate
     ]
 
+def monitor_resources(interval=5):
+    """
+    Mỗi interval giây, in CPU%, RAM%, Disk I/O và Network I/O delta.
+    """
+    global prev_disk, prev_net
+    while True:
+        # 1. CPU & RAM
+        cpu = psutil.cpu_percent(interval=None)          # %
+        ram = psutil.virtual_memory().percent             # %
 
+        # 2. Disk I/O delta
+        disk = psutil.disk_io_counters()
+        read_bytes  = disk.read_bytes  - prev_disk.read_bytes
+        write_bytes = disk.write_bytes - prev_disk.write_bytes
+        prev_disk = disk
+
+        # 3. Network I/O delta
+        net = psutil.net_io_counters()
+        sent_bytes     = net.bytes_sent     - prev_net.bytes_sent
+        recv_bytes     = net.bytes_recv     - prev_net.bytes_recv
+        prev_net = net
+
+        # 4. In ra terminal
+        print(f"[RESOURCE] CPU={cpu:.1f}%  RAM={ram:.1f}%  "
+              f"Disk R={read_bytes/1024:.1f} KiB/s  W={write_bytes/1024:.1f} KiB/s  "
+              f"Net ↑{sent_bytes/1024:.1f}KiB/s ↓{recv_bytes/1024:.1f}KiB/s")
+
+        time.sleep(interval)
+
+# Khởi thread ngay sau khi load model, trước sniff()
+threading.Thread(target=monitor_resources, args=(5,), daemon=True).start()
 
 def detect(pkt):
     global total_sniff_calls, timestamps, error_count
